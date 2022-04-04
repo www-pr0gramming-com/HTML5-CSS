@@ -1,0 +1,12 @@
+.btn-primary{
+    background-color: green;
+}
+
+.btn-primary:hover{
+    background-color:indigo;
+}
+
+.col{
+    background-color: blue;
+    border: 2px solid black;
+}

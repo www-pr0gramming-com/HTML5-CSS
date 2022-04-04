@@ -1,0 +1,93 @@
+/*  selector {
+    Properties: value 
+}*/
+
+/* https://css-tricks.com/ */
+
+
+/* 
+.class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!important
+*/
+
+
+/* source order */
+
+* {
+ text-align: right !important
+}  
+
+h2 {
+    color: #246068;
+    text-align: center;
+    border: 5px dashed rgb(170, 170, 57, 0.3);
+    cursor: progress; 
+}
+
+body{
+    background-image: url(001.jpg);
+    background-size: cover;
+}
+
+/* p{
+    color: green;
+} */
+
+
+p {
+    color: pink;
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* line-height: 1px; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    /* font-size: 10%; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Comforter', cursive; */
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext{
+    border: 5px dotted green;
+}
+
+.active{
+    color: red;
+}
+
+#div1{ 
+    background-color: rgb(0, 0, 225, 0.2);
+}
+
+#div2{
+    background-color: rgb(225, 0, 0, 0.2);
+}
+
+div p:last-child{
+    color: blue;
+}
+
+
+img {
+    float: left;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
